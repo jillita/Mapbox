@@ -47,7 +47,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Second Chapter',
-            image: './images/RescuerDanishBoat.jpg',
+            image: './images/RescuerDanishBoatSM.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [16.93735, 55.53372],
