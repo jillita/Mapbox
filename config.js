@@ -16,7 +16,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'First Chapter',
-            image: '/images/TerontolaPlaque.jpg',
+            image: './images/TerontolaPlaque.jpg',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                    location: {
                 center: [-0.46550, 48.21242],
@@ -47,7 +47,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Second Chapter',
-            image: 'images/RescuerDanishBoatSM.jpg',
+            image: './images/RescuerDanishBoatSM.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [16.93735, 55.53372],
