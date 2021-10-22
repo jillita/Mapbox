@@ -17,7 +17,7 @@ var config = {
             hidden: false,
             title: 'World War II Allies and Axis Countries in 1944',
             image: '',
-            description: '<iframe width="100%" height="400" src="./video/Rocky Barb_2021_1021sm.mp4"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            description: '<iframe width="100%" height="400" src='./video/Rocky Barb_2021_1021sm.mp4' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
                    location: {
                 //center: [16.84923, 48.09285],
                 //zoom: 4.09,
