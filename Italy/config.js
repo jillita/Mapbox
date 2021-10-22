@@ -16,7 +16,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'World War II Allies and Axis Countries in 1944',
-            image: './images/WWIICountriesLegend2b.png',
+            image: './video/Poland_2021_1004sm.mp4',
             description: 'This map shows the extent of German occupation throughout Europe in April 1944.',
                    location: {
                 //center: [16.84923, 48.09285],
