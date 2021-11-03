@@ -3,13 +3,77 @@ var config = {
     accessToken: 'pk.eyJ1IjoiamlsbGl0YSIsImEiOiJjaWdoNXJ4bzM4NGNhdmdrcnczZmxnd2hyIn0.HA1T3_gMTk1ORJ9JUQ326w',
     showMarkers: false,
     markerColor: '#3FB1CE',
-    theme: 'light',
-    use3dTerrain: false,
-    title: 'World War II Holocaust Rescuers',
-    subtitle: 'A geographic primer of Rescuers in 1940s Europe',
-    byline: 'By Jillita',
+    theme: 'dark',
+    use3dTerrain: true,
+    title: 'Holocaust Rescuers during World War II',
+    subtitle: 'Italian Cycling Champion: Gino Bartali',
+    byline: '',
     footer: 'Source: source citations, etc.',
     chapters: [
+
+//TEST CHAPTER//
+        {
+            id: 'test-chapter-id',
+            alignment: 'full',
+            hidden: false,
+            title: 'World War II Allies and Axis Countries in 1944',
+            image: '',
+            description:
+'<p align="center"><iframe width="100%" height="600" src="https://www.youtube.com/embed/vCDbpP5POSQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
+
+
+			location: {
+                //center: [16.84923, 48.09285],
+                //zoom: 4.09,
+				center: [-4.24672, 50.63563],
+                zoom: 3.43,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'april-30-1944-boundaries',
+                     opacity: 0.25,
+                     duration: 1000
+                 },
+                 {
+                     layer: 'april-30-1944-boundaries thick',
+                     opacity: 1,
+                     duration: 1000
+                 },
+
+            
+                 {
+                     layer: 'april-30-1944 Labels',
+                     opacity: 1,
+                     duration: 1000
+                 }
+            ],
+
+            onChapterExit: [
+                 {
+                     layer: 'april-30-1944-boundaries',
+                     opacity: 0
+                 },
+                 {
+                     layer: 'april-30-1944-boundaries thick',
+                     opacity: 0
+                 },
+
+                 {
+                     layer: 'april-30-1944 Labels',
+                     opacity: 0
+                 }
+
+            ],
+        },
+
+
+
+
 //OPENING CHAPTER//
         {
             id: 'opening-chapter-id',
@@ -17,7 +81,7 @@ var config = {
             hidden: false,
             title: 'World War II Allies and Axis Countries in 1944',
             image: '',
-            description: '<iframe width="100%" height="400" src='./video/Rocky Barb_2021_1021sm.mp4' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            description: '<iframe width="100%" height="400" src="./video/Rocky Barb_2021_1021sm.mp4"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
                    location: {
                 //center: [16.84923, 48.09285],
                 //zoom: 4.09,
@@ -67,173 +131,6 @@ var config = {
             ],
         },
 
-//FIRST CHAPTER//
-        {
-            id: 'chapter-one-id',
-            alignment: 'right',
-            hidden: false,
-            title: 'Chapter 1: The Danish Rescuers',
-            image: './images/BikeFalseDocs.jpg',
-            description: 'One of the many remarkable rescuer stories is from Denmark. Surrounded by water and Germany to the south, the Danish Resistance helped Jews fleeing the country by shuttling them in fishing boats to nearby Sweden. When Yad Vashem approached each rescuer to award them with Righteous Among the Nations, they insited that they be recognized as a group, the only one to be done so.',
-            location: {
-                center: [16.93735, 55.53372],
-                zoom: 5.33,
-                pitch: 0,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo', 
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'april-30-1944-boundaries',
-                     opacity: 0.25,
-                     duration: 1000
-                },
-                 {
-                     layer: 'april-30-1944-boundaries thick',
-                     opacity: 1,
-                     duration: 1000
-                 },
-                 {
-                     layer: 'country-label',
-                     opacity: 0,
-                     duration: 1000
-                 },
-            
-                 {
-                     layer: 'april-30-1944 Labels',
-                     opacity: 1,
-                     duration: 1000
-                 }
-
-                 
-            ],
-            onChapterExit: [
-                 {
-                     layer: 'april-30-1944-boundaries',
-                     opacity: 0.25
-                 },
-                 {
-                     layer: 'april-30-1944-boundaries thick',
-                     opacity: 1,
-                     duration: 1000
-                 },
-                 {
-                     layer: 'country-labels',
-                     opacity: 0
-                 },
-            
-                 {
-                     layer: 'april-30-1944 Labels',
-                     opacity: 1,
-                     duration: 1000
-                 }
-
-            ]
-        },
-//SECOND CHAPTER//
-        {
-            id: 'chapter-two-id',
-            alignment: 'right',
-            hidden: false,
-            title: 'Chapter 2: Knud Dyby',
-            image: './images/KnudDyby1941SM.jpg',
-            description: 'Knud Dyby was a Danish police officer who was also instrumental to the Resistance. In addition to creating false identification documents in his office, he also helped coordinate the fishermen who left ports around Copenhagen across the Strait to Sweden.',
-            location: {
-                center: [12.91419, 55.55646],
-                zoom: 9.26,
-                pitch: 45,
-                bearing: 65
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'april-30-1944-boundaries',
-                     opacity: 0.25,
-                     duration: 1000
-                },
-                 {
-                     layer: 'april-30-1944-boundaries thick',
-                     opacity: 1,
-                     duration: 1000
-                 },
-                 {
-                     layer: 'april-30-1944 Labels',
-                     opacity: 1,
-                     duration: 1000
-                 }                 
-            ],
-            onChapterExit: [
-                 {
-                     layer: 'april-30-1944-boundaries',
-                     opacity: 0.25
-                 },
-                 {
-                     layer: 'april-30-1944-boundaries thick',
-                     opacity: 1,
-                     duration: 1000
-                 },
-                 {
-                     layer: 'april-30-1944 Labels',
-                     opacity: 1,
-                     duration: 1000
-                 }
-            ]
-        },
-//SECOND B CHAPTER//
-        {
-            id: 'chapter-twob-id',
-            alignment: 'right',
-            hidden: false,
-            title: 'Chapter 2: Knud Dyby Testimony',
-            image: '',
-            description: '<iframe width="100%" height="400" src="https://www.youtube.com/embed/3cbKYXGgRgY?start=65"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-            location: {
-                center: [12.91419, 55.55646],
-                zoom: 9.26,
-                pitch: 45,
-                bearing: 65
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'april-30-1944-boundaries',
-                     opacity: 0.25,
-                     duration: 1000
-                },
-                 {
-                     layer: 'april-30-1944-boundaries thick',
-                     opacity: 1,
-                     duration: 1000
-                 },
-                 {
-                     layer: 'april-30-1944 Labels',
-                     opacity: 1,
-                     duration: 1000
-                 }                 
-            ],
-            onChapterExit: [
-                 {
-                     layer: 'april-30-1944-boundaries',
-                     opacity: 0.25
-                 },
-                 {
-                     layer: 'april-30-1944-boundaries thick',
-                     opacity: 1,
-                     duration: 1000
-                 },
-                 {
-                     layer: 'april-30-1944 Labels',
-                     opacity: 1,
-                     duration: 1000
-                 }
-            ]
-        },
 //THIRD CHAPTER//
         {
             id: 'chapter-three-id',
@@ -629,7 +526,7 @@ var config = {
             title: 'Chapter 9: The Flight South to Allied Territory',
             image: '',
             description:
-'<iframe width="100%" height="315" src="https://www.youtube.com/embed/vCDbpP5POSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+'<iframe width="100%" height="315" src="https://www.youtube.com/embed/vCDbpP5POSQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 
             location: {
                 center: [17.34337, 40.27676],
