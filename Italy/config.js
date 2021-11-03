@@ -77,11 +77,11 @@ var config = {
 //OPENING CHAPTER//
         {
             id: 'opening-chapter-id',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'World War II Allies and Axis Countries in 1944',
             image: '',
-            description: '<iframe width="100%" height="400" src="./video/Rocky Barb_2021_1021sm.mp4"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            description: '<p><iframe width="100%" height="400" src="./video/Rocky Barb_2021_1021sm.mp4"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>A Holocaust rescuer story that is not well known outside of Italy is of Gino Bartali, a champion cyclist in the 1930s and 1940s and winner of the 1938 and 1948 Tour de France, and the 1936, 1937, and 1946 Giro d’Italia. In the early years of the war, Italy’s rule under fascist leader Benito Mussolini followed Germany’s lead in limiting Jewish citizen way of life [expand] and sending them to Italian camps, but not mandating deportation to foreign labor and extermination camps. Bartali was enlisted in the Italian army in 1940, but a medical condition prevented him from active duty and he was assigned as a courier and allowed to continue racing and training </p>',
                    location: {
                 //center: [16.84923, 48.09285],
                 //zoom: 4.09,
@@ -138,7 +138,7 @@ var config = {
             hidden: false,
             title: 'Chapter 3: Italy and Gino Bartali',
             image: './images/gino-bartali-2.jpg',
-            description: '',
+            description: 'In 1943, however, Germany invaded and occupied Italy, bringing its extermination policies inside the formerly passive state. At this time, Bartali was called up by his friend, the cardinal of Florence to assist in his efforts to hide and provide fake identification documents to thousands of Jews who were hiding within his region’s religious buildings  and trying to flee to Allied countries or southern Italy. Bartalis years of training while working for the Army provided him a consistent story as he worked clandestinely as a courier for the Assisi Network between Florence and Assisi, and as far as Rome and Genoa. Hidden within the frame of his bicycle were false identification papers that he would deliver to others in his network or directly to Jews fleeing occupied Italy. If stopped by the Nazis along his route, his notoriety gave him the excuse that he was training to win great races after the war (McConnon McConnon, 2012). At other times, his mission was to ride to Genoa to pick up money provided by a lawyer aid in helping the network’s efforts [cite Road.cc]. From 1943 to 1944, it is estimated that he rode at least 40 missions for the Assisi Network .',
             location: {
                 center: [15.56374, 42.09781],
                 zoom: 5.30,
@@ -213,7 +213,7 @@ var config = {
             hidden: false,
             title: 'Chapter 4: Gino and Cardinal Della Costa, the Bishop of Florence',
 			image: './images/DallaCosta-Bartali.png',
-            description: '',
+            description: '<p>His successful bike racing career afforded him the money to own a few properties in Florence. During the German occupation, he hid Jewish family friends in one of his buildings and also supplied the family’s mother with false identification so she could leave their hiding place for water and food (Yad Vashem, 2021). A humble and deeply religious Catholic with the nickname Il Pio (the Pious), Bartali frequently prayed for guidance and protection for his family as he was gripped with fear knowing the danger that each day presented when he left on his missions and seeing what was happening to others (McConnon McConnon, 2012).</p><p>During and after the war, Bartali never told his family or friends about his role. Like millions of others, he wanted to forget and move on with his life. He resumed racing and reclaimed his grand tour titles in 1946 and 1948 to great fanfare as Italy struggled to rebuild its national identity after the war. He and his wife, Adriana, raised their two children, Andrea and Luigi, and watched grandchildren born. But as the decades passed, Bartali’s son, Luigi, began to ask his father questions about the war, and slowly revelations began to unfold.</p>',
             location: {
                 center: [11.26244, 43.76776],
                 zoom: 14.88,
@@ -253,7 +253,7 @@ var config = {
             hidden: false,
             title: 'Chapter 5: Gino Rides from Florence to Assisi for the Underground',
             image: './images/Florence2016.jpg',
-            description: '',
+            description: 'Even those who were brave and clear in their moral decisions faced a spectrum of emotions during their involvement. Father Rufino Niccacci, who coordinated the clandestine activities in Assisi, “discovered within himself an uncommon reservoir of courage and wisdom” as he led the rescue efforts instructed by Cardinal Dalla Costa from Florence. Father Niccacci managed the combined efforts of his San Damiano monastery, the San Quirico convent, the Brizi family secret printing press, among other parts of the region’s network. This isn’t to say that the rescue efforts were pure feats of confidence and mental fortitude. Being human, the rescuers were prone to fear and weakness. The Germans nearly caught Luigi, the father of the Brizi family, printing forged documents when they visited his shop. Gripped with fear, he ran to Father Niccacci to resign from the work, but at San Damiano he caught his first glimpse of champion Gino Bartali trading papers with the Father and then riding off into the darkness. The Father explained to the startled man, “It will please you to know that some of the documents you prepared have been brought to Perugia and to Florence by Gino himself.” That moment recalibrated Brizi and renewed his strength. “The idea of taking part in an organization that could boast a champion like Gino Bartali among its ranks, filled me with such pride that my fear took a back seat.”',
             location: {
                 center: [11.70321, 43.40513],
                 zoom: 9.07,
@@ -311,7 +311,7 @@ var config = {
             hidden: false,
             title: 'Chapter 6: Assisi, the Holy City and center of the Underground',
             image: './images/Assisi.jpg',
-            description: '',
+            description: 'Over the past ten years as Bartali’s story has become more widely known, there has been a steady effort in the cycling world and in the Italian and Jewish communities to keep Bartali’s heroic deeds in the public eye. Although these relationships are mainly centered in Europe, when covered by the press they have potential worldwide reach. They are led by people who believe that by continuing Bartali’s legacy they have a real opportunity to make a change in the world. In Israel they have founded the Gino Bartali Youth Leadership boarding school for children ages 14-17. Using cycling as a program to learn confidence and leadership, the students are taught academic and life skills that embrace diversity and multi-cultural knowledge. Near Terontola is the first public school in Italy named for Gino Bartali, which was dedicated in 2017 and attended by Ivo. The Gino Bartali Museum outside Florence, and the Museum of the Memory in Assisi continue educating locals and visitors of Bartali’s stories and of other Holocaust rescuers. A few of Bartali’s posthumous accolades include being awarded Righteous Among Nations in 2013 by Israel, which honors non-Jewish rescuers who risked their lives to save Jews during the Holocaust. ',
             location: {
                 center: [12.60977, 43.06866],
                 zoom: 15.68,
@@ -382,7 +382,7 @@ var config = {
             hidden: false,
             title: 'Chapter 7: Gino Rides from Assisi to Terontola',
             image: './images/LakeTresimeno.jpg',
-            description: '',
+            description: '<p>	In the case of Bartali, he held tight to his role in WWII, as did many others in the Assisi Network who died with their secrets. Additionally, Italy’s cities, villages, and infrastructure had been ravaged into ruins, so as a whole the country after the war was consumed by the mindset to move forward and rebuild. After the war, Bartali was consumed with proving his racing form despite his lost war years and age, 30 in 1944. </p><p>Big races such as the Tour de France and Giro dItalia, were not held during the war from 1940-1946 (Giro 1941-1945). The French race organizers of the Tour protested the German-occupation of France, and no one would get behind Germany’s attempt to hold the race as a sign of national unity [cite]. Many of Bartali’s former competitors had died in the war, and a new, younger crop of racers were ready to challenge the former champion. Remarkably, he won the Tour de France again in 1948, ten years after his first victory and when many in the media and professional ranks considered him too old at 34, calling him “Il Vecchio”, the Old Man [McConnin] Over 70 years later, this is still the longest gap between Tour de France victories for a single rider.</p> ',
             location: {
                 center: [12.51069, 43.11674],
                 zoom: 9.51,
@@ -446,7 +446,7 @@ var config = {
             hidden: false,
             title: 'Chapter 8: Gino at the Terontola Train Station',
             image: './images/TerontolaBridge.jpg',
-            description: '',
+            description: 'He raised three children with his wife, Adriana. Throughout his life he only mentioned what he did on his so-called wartime training rides briefly to a few close friends and his family. The man I met while in Perugia, Ivo Faltoni, was one of his trusted confidents. While on long drives to races or promotional events, Bartali would exorcise some of his demons with Ivo as his confessor. [Few translated quotes] In 1978, a Polish Jew war journalist, Alexander Ramati, who was with the Allies as they liberated Assisi, published a book, The Assisi Underground, with interviews of Father Rufino Niccacci and Luigi and Trento Brizi. For the first time, the story publicly mentioned Bartali’s role as a courier. This was later made into a film in 1985 and the Italian press hounded Bartali about his life during the war. Ever the combatant, “Il Ginettaccio,” refused to discuss his role, saying that it would overshadow those who lost their lives and suffered profoundly more than he had. “I don’t want to appear to be a hero. Heroes are those who died, who were injured, who spent many months in prison.” [RTV] ',
             location: {
                 center: [12.01191, 43.20853],
                 zoom: 16.21,
@@ -526,7 +526,7 @@ var config = {
             title: 'Chapter 9: The Flight South to Allied Territory',
             image: '',
             description:
-'<iframe width="100%" height="315" src="https://www.youtube.com/embed/vCDbpP5POSQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+'<p><iframe width="100%" height="315" src="https://www.youtube.com/embed/vCDbpP5POSQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>He raised three children with his wife, Adriana. Throughout his life he only mentioned what he did on his so-called wartime training rides briefly to a few close friends and his family. The man I met while in Perugia, Ivo Faltoni, was one of his trusted confidents. While on long drives to races or promotional events, Bartali would exorcise some of his demons with Ivo as his confessor. [Few translated quotes] In 1978, a Polish Jew war journalist, Alexander Ramati, who was with the Allies as they liberated Assisi, published a book, The Assisi Underground, with interviews of Father Rufino Niccacci and Luigi and Trento Brizi. For the first time, the story publicly mentioned Bartali’s role as a courier. This was later made into a film in 1985 and the Italian press hounded Bartali about his life during the war. Ever the combatant, “Il Ginettaccio,” refused to discuss his role, saying that it would overshadow those who lost their lives and suffered profoundly more than he had. “I don’t want to appear to be a hero. Heroes are those who died, who were injured, who spent many months in prison.” [RTV] </p>',
 
             location: {
                 center: [17.34337, 40.27676],
@@ -585,7 +585,7 @@ var config = {
 //TENTH CHAPTER//
         {
             id: 'chapter-ten-id',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Chapter 10: Yad Vashem and the Righteous Among the Nations',
             image: './images/TerontolaPlaque.jpg',
