@@ -180,11 +180,18 @@ bearing: 0.00
             mapAnimation: 'flyTo', 
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [
-      
+             onChapterEnter: [
+                       {
+                     layer: 'mapbox-satellite',
+                     opacity: 0,
+                     duration: 1000
+                 }
             ],
             onChapterExit: [
-
+                 {
+                     layer: 'mapbox-satellite',
+                     opacity: 0
+                 }
             ]
         },
 		
