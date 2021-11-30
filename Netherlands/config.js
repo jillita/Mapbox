@@ -170,7 +170,7 @@ bearing: 0.00
             hidden: false,
             title: 'Chapter 5a: Amsterdam Underground Network',
             image: '',
-            description: '<p>A group of Dutch resistance members and hidden Jews are crowded into a room [possibly to listen to a clandestine radio].</p><p><img src="./images/DutchResistanceRadio.jpg"></p><p>Photo: United States Holocaust Memorial Museum, courtesy of Hans Aussen</p>',
+            description: '<p>A group of Dutch resistance members and hidden Jews are crowded into a room, possibly to listen to a clandestine radio, seen on the left.</p><p><img src="./images/DutchResistanceRadio.jpg"></p><p>Photo: United States Holocaust Memorial Museum, courtesy of Hans Aussen</p>',
             location: {
 center: [20.80844, 51.58930],
 zoom: 4.87,
