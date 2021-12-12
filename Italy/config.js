@@ -17,7 +17,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'World War II Allies and Axis Countries in 1944',
-            image: './images/WWIICountriesLegend2b.png',
+            image: './images/WWIICountriesLegend_2021_1203c.png',
             description:
 '<p>European alliances were in a constant state of flux throughout World War II. This map is a general display of Germany’s influence at its height in April 1944. The map shows countries where they held occupation, adoption of racial laws, puppet states, protectorates, and Axis alliances. The green dots represent various types of concentration camps (labor, transit, extermination, internment, etc.) during the war. The purpose of both datasets is to give the user an idea of what Europe looked like at the time.</p>',
    location: {
