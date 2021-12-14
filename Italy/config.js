@@ -46,7 +46,7 @@ bearing: 0.00
             id: 'chapter-one-id',
             alignment: 'right',
             hidden: false,
-            title: 'Chapter 1: Early in the War',
+            title: 'Gino Bartali',
             image: './images/gino-bartali-2.jpg',
             description: '<p>A Holocaust rescuer story that is not well known outside of Italy is of Gino Bartali, a champion cyclist in the 1930s and 1940s and winner of the 1938 and 1948 Tour de France, and the 1936, 1937, and 1946 Giro d’Italia. During the war, the fascist dictator, Benito Mussolini, ruled Italy and believed that the Italians were a superior race, much as Hitler looked at his Aryan citizens. Together, they formed an Axis with the goal to take over the European and Mediterranean landscape.</p><p><img src="./images/MussoliniHitlerSM.jpg"></p><p>Bartali, however, held a different view. He grew up outside of Florence, Italy, with loving Catholic parents who instilled morals in the form of a strong humanitarian response.  Bartali’s father taught him to beware of ignorant fascists and that everyone should be treated as equals.  When the cyclist began winning major races including the Tour de France in the 1930s, he bucked the fascists by saying that he owed his athletic achievements only to God, not to them. </p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/jsD6v01f_Oo?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>Big races such as the Tour de France and Giro d’Italia were not held during the war. The French race organizers of the Tour protested the German-occupation of France, and no one would get behind Germany’s attempt to hold the race as a sign of national unity. Bartali was enlisted in the Italian army in 1940, but a medical condition prevented him from active duty and he was assigned as a courier and allowed to continue racing and training.</p>',
                    location: {
@@ -133,7 +133,7 @@ bearing: 0.00
             hidden: false,
             title: 'Clandestine Training Rides',
 			image: '',
-            description: '<p><iframe width="100%" height="500" src="https://www.youtube.com/embed/vCDbpP5POSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
+            description: '<p><iframe width="100%" height="500" src="https://www.youtube.com/embed/1EPPuP-Ew8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
             location: {
                 center: [11.26244, 43.76776],
                 zoom: 14.88,
