@@ -8,7 +8,7 @@ var config = {
     title: 'Holocaust Rescuers during World War II',
     subtitle: 'The Netherlands and Tina Strobos',
     byline: '',
-    footer: 'Source: source citations, etc.',
+    footer: 'Sources: All videos from the <a href="https://collections.ushmm.org/search/" target="blank">U.S. Holocaust Memorial Museum</a>. Information on the map data can be found at my <a href="https://jillgrecobodnar.com/mfa-project-index#index-map-data" target="blank">MFA Project Map Data page</a>.',
     chapters: [
 //OPENING CHAPTER//
         {
@@ -43,9 +43,9 @@ bearing: 0.00
             id: 'chapter-one-id',
             alignment: 'right',
             hidden: false,
-            title: 'Chapter 1: Tina Strobos',
+            title: 'Rescuer Tina Strobos',
             image: './images/Strobos1941.jpg',
-            description: '<p>Tina Strobos (left) was a bright, 19-year-old medical student in Amsterdam when her country surrendered to the Germans in 1940. She had been brought up in a progressive, intellectual family that forged her moral values at a young age. They were self-described Socialist Democratic Atheists, which was a common freethinker movement at that time in Amsterdam. Her family and their social circle believed in science and reason, and rejected religious beliefs. They sought to rid themselves of the “tyranny of the clergy.” However, this never effected their morality. Rather, for generations her family held great values for life and had a tradition of helping others. </p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/v7vG8oH14wU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>Holocaust rescuer researcher, Eva Fogelman, found that the most common motivation in rescuers was to be Moral, based on values developed from different sources. These could be ideological morals that encouraged justice and were common in rescuers who were more politically motivated. Strobos’ upbringing among her parents and their progressive Amsterdam social circle instilled these ideals for justice.</p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/cmnKz7kAGoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
+            description: '<p><p><i>Tina Strobos, her fiancee Abraham Pais and her mother Marie Schotte in 1941 Amsterdam (photo Wikimedia).</i></p>Tina Strobos was a bright, 19-year-old medical student in Amsterdam when her country surrendered to the Germans in 1940. She had been brought up in a progressive, intellectual family that forged her moral values at a young age. They were self-described Socialist Democratic Atheists, which was a common freethinker movement at that time in Amsterdam. Her family and their social circle believed in science and reason, and rejected religious beliefs. They sought to rid themselves of the “tyranny of the clergy.” However, this never effected their morality. Rather, for generations her family held great values for life and had a tradition of helping others. </p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/v7vG8oH14wU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>Holocaust rescuer researcher, Eva Fogelman, found that the most common motivation in rescuers was to be Moral, based on values developed from different sources. These could be ideological morals that encouraged justice and were common in rescuers who were more politically motivated. Strobos’ upbringing among her parents and their progressive Amsterdam social circle instilled these ideals for justice.</p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/cmnKz7kAGoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
             location: {
 center: [9.23206, 52.17400],
 zoom: 5.66,
@@ -68,9 +68,9 @@ bearing: 0.00
             id: 'chapter-two-id',
             alignment: 'right',
             hidden: false,
-            title: 'Chapter 2: German Occupation',
+            title: 'German Occupation of the Netherlands',
             image: './images/Rotterdam.jpg',
-            description: '<p>The entire eastern border of The Netherlands is shared with Germany. Hitler wanted to annex a population he considered their “Aryan brothers” and bring them back to their “kindred Germanic tribe.” The Dutch government tried to negotiate changing from a neutral country to an independent Nazi state, but Hitler wanted them under the Reich as quickly as possible. In May 1940, the small coastal country was invaded by the German military. The Dutch military’s aging artillery left it out-classed. On the fourth day, German bombs dropped on Rotterdam destroying the city and leaving 80,000 people homeless. The Dutch country surrendered and their leaders went into exile in London. </p><p>In other countries invaded by Germany, such as France and Denmark, a military-led government was set up with German military leaders. It was common knowledge that they did not always rule with such authority as Nazi Gestapo commanders in an installed civil government. Unfortunately, The Netherlands had this new civil government led by ruthless Nazi leaders devoted to Hitler and ready to implement his agenda. There was no hesitation enacting Hitler’s racial laws and there were ample Dutch civil servants and citizens willing to cooperate. </p><p>Strobos remembers that the Nazis at first tried to win her country’s trust, but they slowly began to reveal their ruthlessness. Jews were required to register and some were sent to forced labor camps or gathered into ghettos. By the fall of 1942 they were required to wear yellow “Jewish Stars” to segregate them from the non-Jewish Dutch citizens. There were curfews and raids and Jews were being shot in the streets. Nazis stood on rooftops surrounded by barbed wire and with machine guns pointed below looking for anyone to shoot. Strobos was left stunned by “the effort and time and manpower these Gestapos employed to catch Jews.” </p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/igFkssuWw7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
+            description: '<p><i>Rotterdam after being bombed by the Germans in May 1940 (photo Wikimedia).</i></p><p>The entire eastern border of The Netherlands is shared with Germany. Hitler wanted to annex a population he considered their “Aryan brothers” and bring them back to their “kindred Germanic tribe.” The Dutch government tried to negotiate changing from a neutral country to an independent Nazi state, but Hitler wanted them under the Reich as quickly as possible. In May 1940, the small coastal country was invaded by the German military. The Dutch military’s aging artillery left it out-classed. On the fourth day, German bombs dropped on Rotterdam destroying the city and leaving 80,000 people homeless. The Dutch country surrendered and their leaders went into exile in London. </p><p>In other countries invaded by Germany, such as France and Denmark, a military-led government was set up with German military leaders. It was common knowledge that they did not always rule with such authority as Nazi Gestapo commanders in an installed civil government. Unfortunately, The Netherlands had this new civil government led by ruthless Nazi leaders devoted to Hitler and ready to implement his agenda. There was no hesitation enacting Hitler’s racial laws and there were ample Dutch civil servants and citizens willing to cooperate. </p><p>Strobos remembers that the Nazis at first tried to win her country’s trust, but they slowly began to reveal their ruthlessness. Jews were required to register and some were sent to forced labor camps or gathered into ghettos. By the fall of 1942 they were required to wear yellow “Jewish Stars” to segregate them from the non-Jewish Dutch citizens. There were curfews and raids and Jews were being shot in the streets. Nazis stood on rooftops surrounded by barbed wire and with machine guns pointed below looking for anyone to shoot. Strobos was left stunned by “the effort and time and manpower these Gestapos employed to catch Jews.” </p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/igFkssuWw7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
             location: {
 center: [7.45757, 52.39567],
 zoom: 7.02,
@@ -93,7 +93,7 @@ bearing: 0.00
             id: 'chapter-three-id',
             alignment: 'right',
             hidden: false,
-            title: 'Chapter 3: Trapped',
+            title: 'Trapped',
             image: '',
             description: '<p>Jews had lived in The Netherlands for centuries. They found a Dutch tradition for tolerance and little antisemitism that allowed for generations of families to assimilate easily into the population. However, there was a Dutch right-wing movement that began aligning with Hitlers racist agenda in the 1930s and resented the influx of Jewish refugees from other countries. When the Nazi occupation was in full swing, the Netherlands was full of collaborators. Special police units were formed by the Nazis to hunt for Jews, resistance workers, and rescuers, filling their days with terror. Jews tried to row to England or kill themselves. The person next door thought nothing of betraying his or her neighbors merely by noticing an increase in the amount of garbage being thrown out.</p><p>The Netherlands geography is mostly flat with vast open fields for agriculture. There are no mountains or dense forests. To the west likes the North Sea, and their other borders are Germany and occupied Belgium. Anyone trying to escape was trapped by the geography of their surroundings.</p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/dTWcWx08D34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
             location: {
@@ -118,7 +118,7 @@ bearing: 0.00
             id: 'chapter-four-id',
             alignment: 'right',
             hidden: false,
-            title: 'Chapter 4: Westerbork',
+            title: 'Westerbork Transit Camp',
             image: '',
             description: '<p>At the beginning of the war, there were approximately 140,000 Jews in the Netherlands, half who lived in Amsterdam. When the deportations began in summer 1942, many Jews embarking for Westerbork believed they would be sent to a labor camp in Germany or Poland with their family, and that this was a better option than trying to hide and split up. Sadly, they did not know what lay before them. Strobos says that as connected as they were in the underground, no one knew how bad it was for the Dutch Jews once they left Westerbork.  They did not learn that these families were sent to the gas chambers of Auschwitz and Sobibor until after the war. By the summer of 1943, 107,000 Dutch Jews (75%) had been deported to extermination camps.  The 25,000 who stayed and hid in the Netherlands became the cause for the Dutch underground to protect.</p>',
             location: {
@@ -143,7 +143,7 @@ bearing: 0.00
             id: 'chapter-fourb-id',
             alignment: 'full',
             hidden: false,
-            title: 'Chapter 4b: Westerbork',
+            title: 'Westerbork, the Beginning of the End for Dutch Jews',
             image: '',
             description: '<p><iframe width="100%" height="500" src="https://www.youtube.com/embed/1e7bYz3L2K4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
             location: {
@@ -168,9 +168,9 @@ bearing: 0.00
             id: 'chapter-fivea-id',
             alignment: 'full',
             hidden: false,
-            title: 'Chapter 5a: Amsterdam Underground Network',
+            title: 'The Amsterdam Underground Network',
             image: '',
-            description: '<p>A group of Dutch resistance members and hidden Jews are crowded into a room, possibly to listen to a clandestine radio, seen on the left.</p><p><img src="./images/DutchResistanceRadio.jpg"></p><p>Photo: United States Holocaust Memorial Museum, courtesy of Hans Aussen</p>',
+            description: '<p><i>A group of Dutch resistance members and hidden Jews are crowded into a room, possibly to listen to a clandestine radio, seen on the left (photo USHMM, courtesy of Hans Aussen).</i></p><p><img src="./images/DutchResistanceRadio.jpg"></p>',
             location: {
 center: [20.80844, 51.58930],
 zoom: 4.87,
@@ -200,7 +200,7 @@ bearing: 0.00
             id: 'chapter-five-id',
             alignment: 'right',
             hidden: false,
-            title: 'Chapter 5: Amsterdam Underground Network',
+            title: '',
             image: '',
             description: '<p>With schools and universities shut down by the new civil government, Strobos and her fellow students poured their energy into the Dutch underground. Her home served as a place for planning meetings, for banned medical school classes, as a transit point for Jews on the run, and to hear radio broadcasts on illegal receivers. Each day brought new problems to solve, often with someone’s life at stake, including her own. It could involve hiding a Jew for a day or a week in their house, or riding her bike to pick up fake identification cards. This predisposition to action and ability to think on her feet while under the duress of war is a significant rescuer trait described by researchers Sam and Pearl Oliner. One of Strobos’ immediate instincts was to save Jewish children. She and her sorority sisters discovered that the nearby Amsterdam ghetto was not heavily guarded and they could ride in and out on their bicycles.</p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/IfQopXTRw7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
             location: {
@@ -232,7 +232,7 @@ bearing: 0.00
             id: 'chapter-six-id',
             alignment: 'full',
             hidden: false,
-            title: 'Chapter 6: Escape Routes',
+            title: 'Amsterdam Escape Routes',
             image: '',
             description: '<p>The housing density in Amsterdam made it extremely difficult and challenging to shuffle Jews from place to place as the Gestapo “crawled” through the streets constantly searching buildings. Throughout the war, a Jew might stay in 40 different places with one of the estimated 20,000 Dutch people that helped the Jews in some form. Strobos’ house was searched eight times and the Gestapo left nothing unturned, ripping up the carpets, knocking on walls, pulling pictures off the walls.</p><p>Rescuers who were well trained by the underground created escape routes from apartments to rooftops and nearby buildings. Carpenters with the underground used their talents to create creating hidden walls and spaces within shelves, under floors, and between attic rafters for Jews to hide when the Nazis came to raid. Strobos and her family would train the people they were hiding on how to hide quickly or how to escape their building into a nearby school. She notes that, for an unknown reason, the building where Anne Frank hid did not have an escape route out of the attic, which left her trapped.</p><p><iframe width="100%" height="500" src="https://www.youtube.com/embed/DKvVZGIhL10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
             location: {
@@ -264,7 +264,7 @@ bearing: 0.00
             id: 'chapter-sixb-id',
             alignment: 'right',
             hidden: false,
-            title: 'Chapter 6B: Life and Death',
+            title: 'Risking Life and Death',
             image: '',
             description: '<p><iframe width="100%" height="500" src="https://www.youtube.com/embed/KQRUmpZzsVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>',
             location: {
@@ -296,7 +296,7 @@ bearing: 0.00
             id: 'chapter-seven-id',
             alignment: 'right',
             hidden: false,
-            title: 'Chapter 7: Righteous Among the Nations',
+            title: 'Righteous Among the Nations',
             image: '',
             description: '<p>Researcher Eva Fogelman coined the term “rescuer self” in her study of rescuers. This described the psychological transformation they underwent to rebalance the stressors of their new reality. They had to quickly manage and adapt to a world of deception, secrecy, and violence while caring for individuals who required food, shelter, and emotional energy. The rescuer self was a new identity built on strong moral foundations that allowed them to do what was necessary, to rationalize that their efforts were necessary and just. This identity was far more flexible than bystanders or those who did not pursue rescue at the same level. Their identities were solely about self-preservation of their status quo and an inability to adapt to new stresses from the war.</p>	<p><iframe width="100%" height="500" src="https://www.youtube.com/embed/jp_SxKY4Kvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>The Dutch were second to Poland in number of rescuers, but the circumstances that filled their country with such difficulty allowed less than 25%, or 33,000, of Jews in The Netherlands to survive. The number of people actually rescued was only 11% of the Jewish population.</p><p>Tina Strobos and her mother, Marie, were recognized by Yad Vashem for their perilous actions working for the Dutch underground and saving nearly 100 Jews in their home. They were awarded the title Righteous Among the Nations in 1989.</p>',
             location: {
