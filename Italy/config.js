@@ -7,8 +7,8 @@ var config = {
     use3dTerrain: true,
     title: 'Holocaust Rescuers during World War II',
     subtitle: 'Italian Cycling Champion: Gino Bartali',
-    byline: '',
-    footer: 'Information on the map data can be found at my <a href="https://jillgrecobodnar.com/mfa-project-index#index-map-data" target="blank">MFA Project Map Data page</a>.',
+    byline: 'Scroll down the right side to read the story. On the left, zoom or pan around the map using your mouse, or use keyboard shortcuts (arrows, plus and minus keys).',
+    footer: 'Please visit my full <a href="https://jillgrecobodnar.com/mfa-project-index/" target="blank">MFA Holocaust Rescuer Project website</a> to learn more, including the <a href="https://jillgrecobodnar.com/mfa-project-index#index-map-data" target="blank">methods and data used in this Map Story</a>.',
     chapters: [
 
 //MAP INTRO//
@@ -324,38 +324,20 @@ bearing: 0.00
                      opacity: 1,
                      duration: 5000
                  },
-		         {
-                     layer: 'Assisi to Terontola Dash',
-                     opacity: 1,
-                     duration: 5000
 
-                 },
-			     {
-                     layer: 'Assisi to Terontola Track 3',
-                     opacity: 1,
-                     duration: 5000
-
-                 }
 
             ],
             onChapterExit: [
  
 				{
                      layer: 'Florence to Assisi Dash',
-                     opacity: 0
+                     opacity: 1
                  },
 				 {
                      layer: 'Florence to Assisi Track 2',
-                     opacity: 0
-                 },
-		    	{
-                     layer: 'Assisi to Terontola Dash',
                      opacity: 1
                  },
-			{
-                     layer: 'Assisi to Terontola Track 3',
-                     opacity: 1
-                 }
+
 
             ]
         },
@@ -385,13 +367,13 @@ bearing: 0.00
                  },
 		
 				 {
-                     layer: 'Assisi to Terontola Dash',
+                     layer: 'Florence to Assisi Dash',
                      opacity: 1,
                      duration: 5000
                  },
                  
 			{
-                     layer: 'Assisi to Terontola Track 3',
+                     layer: 'Florence to Assisi Track 2',
                      opacity: 1,
                      duration: 5000
                  },
@@ -409,11 +391,11 @@ bearing: 0.00
                  },
 	
                	{
-                     layer: 'Assisi to Terontola Dash',
+                     layer: 'Florence to Assisi Dash',
                      opacity: 0
                  },
 			{
-                     layer: 'Assisi to Terontola Track 3',
+                     layer: 'Florence to Assisi Track 2',
                      opacity: 0
                  },
 			{
