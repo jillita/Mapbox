@@ -7,8 +7,8 @@ var config = {
     use3dTerrain: true,
     title: 'Holocaust Rescuers during World War II',
     subtitle: 'The Netherlands and Tina Strobos',
-    byline: '',
-    footer: 'Sources: All videos from the <a href="https://collections.ushmm.org/search/" target="blank">U.S. Holocaust Memorial Museum</a>. Information on the map data can be found at my <a href="https://jillgrecobodnar.com/mfa-project-index#index-map-data" target="blank">MFA Project Map Data page</a>.',
+    byline: 'Scroll down the right side to read the story. On the left, zoom or pan around the map using your mouse, or use keyboard shortcuts (arrows, plus and minus keys).',
+    footer: 'Please visit my full <a href="https://jillgrecobodnar.com/mfa-project-index/" target="blank">MFA Holocaust Rescuer Project website</a> to learn more, including the <a href="https://jillgrecobodnar.com/mfa-project-index#index-map-data" target="blank">methods and data used in this Map Story</a>.',
     chapters: [
 //OPENING CHAPTER//
         {
